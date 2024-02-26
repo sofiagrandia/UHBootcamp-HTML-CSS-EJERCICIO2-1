@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EJERCICIO 2-1</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="logo"
+        src="./images/issuu-logo-e1436720539805.png"
+        alt="issuu logo"
+      />
+      <div class="signin">
+        <p class="body-text">Already a user?</p>
+        <a class="body-text" href="">Sign in</a>
+      </div>
+    </header>
+    <main class="main">
+      <h1 class="title">Create an Issuu Account.</h1>
+      <div class="buttons">
+          <a class="google-button" type="submit">Sign in with Google</a>
+          <a class="facebook-button" type="submit">
+            Continue with Facebook
+          </a>
+      </div>
+      <p class="body-text">or with email</p>
+      <form class="form" action="">
+        <div class="form-input">
+            <label class="label-text" for="email">Email</label>
+            <input class="input"
+              type="text"
+              name="email"
+              id="email"
+              placeholder=" e.g. john.doe@email.com"
+            />
+        </div>
+
+        <div class="form-input">
+            <label class="label-text" for="pwd">Password </label>
+            <input class="input" type="password" class="pwd" id="pwd" />
+        </div>
+        <div class="form-check">
+            <input type="checkbox" name="cb" id="cb">
+            <label class="small-text" for="cb"> I accept the <span><a href="">Terms of Service</a></span> and the <span><a href="">Professional Terms of Service</a></span></label>
+        </div>
+
+        <button class="create" type="submit">CREATE ACCOUNT</button>
+      </form>
+    </main>
+    <footer class="footer">
+        <a class="small-text" href="">Issuu Inc.</a>
+        <div class="footer-group">
+            <a class="small-text"  href="">Terms</a>
+            <a class="small-text"  href="">Privacy</a>
+            <a class="small-text"  href="">DMCA</a>
+        </div>
+    </footer>
+  </body>
+</html>
